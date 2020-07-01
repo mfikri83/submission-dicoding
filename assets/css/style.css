@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+main {
+    padding: 30px;
+    overflow: auto;
+}
+
+header {
+    display: inline;
+}
+
+.judul-jumbotron {
+    background-image: url(../../image/cover.jpg);
+    background-size: cover;
+    background-position-y: -240px;
+    background-repeat: repeat;
+    font-size: 25px;
+    padding: 60px;
+    text-align: center;
+    text-shadow: green;
+    color: white;
+}
+
+nav {
+    border: 1px solid white;
+    background-color: #56a53d;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: honeydew;
+}
+
+.date {
+    border: 1px solid green;
+    background-color: #56a53d;
+    padding: 3px;
+    width: 200px;
+    color: white;
+}
+
+.paragraf {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.size-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+.profil img {
+    width: 120px;
+    margin-left: -5px;
+}
+
+.profil header {
+    text-align: center;
+    font-style: italic;
+}
+
+.biodata {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 3px;
+    padding-bottom: 30px;
+    margin-top: 5px;
+}
+
+aside {
+    width: 25%;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    float: right;
+    font-size: small;
+}
+
+aside section table {
+    font-size: small;
+    text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid white;
+    background-color: #56a53d;
+}
+
+.sosmed-inst,
+.sosmed-face,
+.sosmed-twiter {
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
